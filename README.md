@@ -1,6 +1,5 @@
 # Flight Delay Prediction
 
-
 ### Team Members
 | Name   | Github Handle   |
 |--------|----------------|
