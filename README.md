@@ -17,12 +17,11 @@
 4. Trends of % flight delays/cancellations overall ?   
 
 ## Datasets to be used
-[Flight data from Go Flight Lab](https://www.goflightlabs.com/)
-
+[Flight data from Kaggle](https://www.kaggle.com/datasets/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018)
 [Weather Data from Visual Crossing](https://www.visualcrossing.com/)
 
 ### Rough Breakdown of Tasks
-- [ ] Set up github
+- [x] Set up github
 - [ ] Gather Data
 - [ ] Clean Data
 - [ ] Describe Data
@@ -32,3 +31,13 @@
 - [ ] Put together analsys
 - [ ] Create Powerpoint
 - [ ] Go over 10min presentation
+
+---
+
+## Requirements
+#### Kaggle and [Kaggle API key](https://www.kaggle.com/)
+`pip install kaggle`
+#### [Dotenv](https://pypi.org/project/python-dotenv/)
+`pip install python-dotenv`
+#### [Airport Data](https://pypi.org/project/airportsdata/)
+`pip install -U airportsdata`
