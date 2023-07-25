@@ -22,8 +22,8 @@
 
 ### Rough Breakdown of Tasks
 - [x] Set up github
-- [ ] Gather Data
-- [ ] Clean Data
+- [x] Gather Data
+- [x] Clean Data
 - [ ] Describe Data
 - [ ] Answer Questions
 - [ ] Decide propapbility of Prediction
