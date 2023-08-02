@@ -13,8 +13,7 @@
 ## Research Questions to Answer
 1. What is the correlation between precipitation and flight delays ?
 2. What is the correlation between windspeed and flight delays ?
-3. What is the correlation between temp and flight delays ? min vs max ?
-4. Trends of % flight delays/cancellations overall ?   
+3. What is the correlation between temp and flight delays ? 
 
 ## Datasets to be used
 [Flight data from Kaggle](https://www.kaggle.com/datasets/yuanyuwendymu/airline-delay-and-cancellation-data-2009-2018)
@@ -25,13 +24,13 @@
 - [x] Set up github
 - [x] Gather Data
 - [x] Clean Data
-- [ ] Describe Data
-- [ ] Answer Questions
-- [ ] Decide propapbility of Prediction
-- [ ] Create prediction
-- [ ] Put together analsys
-- [ ] Create Powerpoint
-- [ ] Go over 10min presentation
+- [x] Describe Data
+- [x] Answer Questions
+- [x] Decide propapbility of Prediction
+- [x] Create prediction
+- [x] Put together analsys
+- [x] Create Powerpoint
+- [x] Go over 10min presentation
 
 ---
 
@@ -56,3 +55,8 @@
 #### The airport with the lowest precipitation is AUS with a value of 0.0.
 ​
 ## 3. The summary statistics provided above pertain to the top 10 airports with the highest precipitation levels. These statistics are calculated based on the "Origin Precipitation" data for the selected airports. The data shows that the precipitation levels can vary significantly across these airports, with some airports experiencing much higher precipitation than others. The statistics help in understanding the range and variability of precipitation among these top airports.
+
+
+# Flight Delay vs Windspeed
+
+#### The questions I was seeking to answer was "Is there a correlation between destination windspeed and flight delay time?". To answer this question I used scatter plots and linear regression to identify correlating trends in the data. When Departure delays were compared to destination windspeeds the Pearson's coefficient was 0.101 showing a very weak correlation, and further the R^2 value was 0.0127 showing a very weak correlation. The same was the case for arrival delays vs windspeed with a Pearson's coefficient and R^2 value of 0.113 and 0.0079 respectively. I examined smaller subsets of the data like the upper quartile of windspeeds, and delays over 30 minutes and 60  minutes, and the correlations were still very weak. Because of this I conclude that there is little to no correlation between flight delays and destination wind speed.
