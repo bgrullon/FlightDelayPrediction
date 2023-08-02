@@ -10,4 +10,5 @@ The airport with the lowest precipitation is ABQ with a value of 0.0.
 The airport with the highest precipitation is ATL with a value of 1.151.
 The airport with the lowest precipitation is AUS with a value of 0.0.
 
+
 ## 3. The summary statistics provided above pertain to the top 10 airports with the highest precipitation levels. These statistics are calculated based on the "Origin Precipitation" data for the selected airports. The data shows that the precipitation levels can vary significantly across these airports, with some airports experiencing much higher precipitation than others. The statistics help in understanding the range and variability of precipitation among these top airports.

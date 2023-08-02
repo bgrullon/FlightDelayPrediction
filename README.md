@@ -55,6 +55,7 @@
 ## Analysis conclusions based on Precipitation [^1]
 [^1]: @NatkaBond
 
+
 #### With a correlation coefficient of 0.06 (precipitation/arrival delays), and a correlation coefficient of 0.05 (precipitation/departure delays) in dataset is very weak. A correlation coefficient close to zero indicates that changes in precipitation have minimal impact on departure delays. With an R-squared value of approximately 0.0042 (based on arrival delays) and 0.0026 (based on departure delays) it indicates that only a very small proportion of the variation in flight delays can be explained by changes in precipitation. 
 #### Based on origin airport data:
 - The airport with the highest precipitation is MYR with a value of 1.151.
